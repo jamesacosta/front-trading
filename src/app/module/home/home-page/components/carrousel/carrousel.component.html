@@ -1,0 +1,56 @@
+<div id="carouselExampleAutoplaying" class="carousel slide min-vh-100" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active d-item carousel-transition-duration: 2s">
+        <img [src]="slide1" class="d-block w-100 d-img" alt="...">
+        <div class="carousel-caption position-absolute top-50 start-50 translate-middle">
+          <div class="d-flex flex-column align-items-center justify-content-center">
+            <p class="mt-5 fs-3 text-uppercase text-center">
+              Aprende con nosotros
+            </p>
+            <h1 class="display-1 fw-bolder text-capitalize">
+              Trading
+            </h1>
+            <button class="btn px-auto py-2 fs-5 mt-5" (click)="scrollToContactSection()">Contáctanos!</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item d-item carousel-transition-duration: 2s ">
+        <img [src]="slide2" class="d-block w-100 d-img" alt="...">
+        <div class="carousel-caption top-50 start-50 translate-middle">
+          <div class="d-flex flex-column align-items-center justify-content-center">
+            <h1 class="display-1 fw-bolder text-capitalize">
+              Opera
+            </h1>
+            <p class="mt-2 mt-md-5 fs-3 text-uppercase text-center">
+              Divisas / Acciones / Materias Primas / Criptomonedas / Índices
+            </p>
+            <button class="btn px-auto py-2 fs-5 mt-2 mt-md-5" (click)="scrollToContactSection()">Contáctanos!</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item d-item carousel-transition-duration: 2s">
+        <img [src]="slide3" class="d-block w-100 d-img" alt="...">
+        <div class="carousel-caption position-absolute top-50 start-50 translate-middle">
+          <div class="d-flex flex-column align-items-center justify-content-center">
+            <h1 class="display-1 fw-bolder text-capitalize text-center text-wrap">
+              De 0 a 100
+            </h1>
+            <p class="mt-2 fs-3 text-uppercase text-center mt-md-5">
+              Aprende como analizar y operar el mercado bursátil y extrabursátil
+            </p>
+            <button class="btn px-auto fs-5 mt-2 mt-md-2" (click)="scrollToContactSection()">Contáctanos!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>

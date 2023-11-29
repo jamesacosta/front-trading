@@ -1,0 +1,50 @@
+h1
+{
+    text-align: center;
+    padding: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+
+.custom-form{
+      background-color: #2c015b; /* Color de fondo morado claro */
+      padding: 20px;
+      border-radius: 20px;
+    }
+
+.custom-button{
+      background-color: #6f42c1; /* Color de botón morado */
+      border-color: #6f42c1;
+    }
+
+.custom-button:hover {
+      background-color: #5a32a3; /* Color de botón morado más oscuro al pasar el mouse */
+      border-color: #5a32a3;
+    }
+
+.contactoz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width:767px){
+    .mt_5{
+        margin-top: calc(5vh);
+    }
+    
+}
+
+@media screen and (max-width:767px){
+    .mt_b5{
+        margin-bottom: calc(5vh);
+    }
+    
+}
+
+#contact{
+    background-color: white;
+}
